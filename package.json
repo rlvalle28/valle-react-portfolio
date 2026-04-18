@@ -2,20 +2,20 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@10.2.4",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
-    "react": "^18.3.1",
+    "react": "18.2.0",
     "react-bootstrap": "^2.10.5",
-    "react-dom": "^18.3.1",
+    "react-dom": "18.2.0",
     "react-icons": "^5.3.0",
-    "react-scripts": "^0.0.0",
+    "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "sweetalert2": "^11.14.3",
-    "web-vitals": "^2.1.4",
-    "xyz": "^5.0.0"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,9 +41,12 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This project was bootstrapped with Create React App.",
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  }
 }
