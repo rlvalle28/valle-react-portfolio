@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../CForm/CForm.css';
 import '../CForm/CForm_responsive.css';
-import { FaArrowRight } from "react-icons/fa6";
 
 export default function Contact() {
     const [result, setResult] = useState("");
@@ -35,7 +34,6 @@ export default function Contact() {
         }
     };
 
-
     return (
         <div className='main-container' id='contact'>
             <div className='container-column'>
@@ -44,21 +42,27 @@ export default function Contact() {
                     <div className='form-box'>
                         <label>Full Name</label>
                         <input type="text" name="name" placeholder='Ralph Laurence Valle' required />
+
                         <label>Email Address</label>
                         <input type="email" name="email" placeholder='ralphlaurencevalle.work@gmail.com' required />
+
                         <label>Phone Number</label>
-                        <input type='phone' name='phone' placeholder='+63 976 165 2460' required />
+                        <input type='tel' name='phone' placeholder='+63 976 165 2460' required />
+
                         <label>Message</label>
                         <textarea name="message" placeholder='Hi! Ralph...' rows={4} required></textarea>
                     </div>
+
                     <button type="submit" className='submit-button'>
                         <div className='text'>
-                        Submit Form
+                            Submit Form
                         </div>
-                       </button>
+                    </button>
+
                     <span>{result}</span>
                 </form>
             </div>
+
             {isModalOpen && (
                 <div className='modal'>
                     <div className='modal-content'>

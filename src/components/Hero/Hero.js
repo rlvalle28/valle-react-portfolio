@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import '../Hero/Hero.css';
 import '../Hero/Hero_responsive.css';
 import '../Button/Button.css';
@@ -8,66 +8,57 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaSkype } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 
 const handleViewResume = () => {
-  const filePath = '/ralphlaurencevalle.pdf';
-  window.open(filePath, '_blank', 'noopener,noreferrer');
-};
+    const filePath = '/ralphlaurencevalle.pdf';
+    
+    window.open(filePath, '_blank');
+  };
+
 
 export default function Hero() {
-  return (
-    <div className='text-center' id='home'>
-      <div className="main-container">
-        <div className="container-row">
 
-          <div className='hero'>
-            <h1>Hi! I'm Ralph Laurence Valle</h1>
+    return (
+        <di className='text-center' id='home'>
+        <div className="main-container">
+           <div className="container-row">
+                <div className='hero'>
+                    <h1>Hi! I'm Ralph Laurence Valle</h1>
+                    <TypingText />
+                    <div className='react-icons d-flex justify-content-center align-items-center gap-3 m-3'>
+                    <a href="https://www.facebook.com/rencevalle.28" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook />
+                    </a>
+                    <a href="https://github.com/rlvalle28" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
+                    <a href="https://wa.me/+639761652460" target="_blank" rel="noopener noreferrer">
+                        <IoLogoWhatsapp />
+                    </a>
+                    
+                    <a href="skype:plug-shop?+639761652460" target="_blank" rel="noopener noreferrer">
+                        <FaSkype />
+                    </a>
 
-            <TypingText />
-
-            <div className='react-icons d-flex justify-content-center align-items-center gap-3 m-3'>
-              
-              <a href="https://www.facebook.com/rencevalle.28" target="_blank" rel="noopener noreferrer">
-                <FaFacebook />
-              </a>
-
-              <a href="https://github.com/rlvalle28" target="_blank" rel="noopener noreferrer">
-                <FaGithub />
-              </a>
-
-              <a href="https://wa.me/639761652460" target="_blank" rel="noopener noreferrer">
-                <IoLogoWhatsapp />
-              </a>
-
-              <a href="skype:plug-shop?call" target="_blank" rel="noopener noreferrer">
-                <FaSkype />
-              </a>
-
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-                <FaDiscord />
-              </a>
-
-            </div>
-
-            <button onClick={handleViewResume} className="view-button">
-              <div className='text'>
-                View My Resume
-              </div>
-            </button>
-
-          </div>
-
-          <div className='hero-img'>
-            <img
-              src={hero_img}
-              alt="Hero profile"
-              className='hero-img'
-            />
-          </div>
-
+                    <a href="https://discord.com/tel:+639761652460" target="_blank" rel="noopener noreferrer">
+                        <FaDiscord />
+                    </a>
+                    </div>
+                    <button onClick={handleViewResume}
+                    className="view-button">
+                            <div className='text'>
+                            View My Resume
+                            </div>
+                        </button>
+                </div>
+                <div className='hero-img'>
+                    <img src={hero_img} alt='' className='hero-img' />
+                </div>
+           </div>
         </div>
-      </div>
-    </div>
-  );
+        </di>
+    )
 }
+
