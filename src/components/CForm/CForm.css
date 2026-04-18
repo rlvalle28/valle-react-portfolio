@@ -1,0 +1,25 @@
+form {
+    width: 80%;
+    gap: 20px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    padding: 50px 20px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-box input {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form-box textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 3px;
+}

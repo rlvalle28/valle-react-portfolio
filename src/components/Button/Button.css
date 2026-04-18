@@ -1,0 +1,48 @@
+.view-button,
+.submit-button {
+    padding: 10px 25px;
+    color: #000 !important;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background: transparent;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .view-button:before,
+.submit-button:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: var(--navy-blue);
+    transition: 0.8s ease-out;
+    z-index: 1;
+}
+
+.view-button .text,
+.submit-button .text {
+    position: relative;
+    z-index: 2;
+}
+
+.view-button:hover .text,
+.submit-button:hover .text {
+    color: var(--smoke);
+}
+
+.view-button:hover:before,
+.submit-button:hover:before {
+    width: 100%;
+} */
+
+/* when hovered the button */
+.view-button:hover,
+.submit-button:hover {
+    background: var(--navy-blue);
+    color: var(--smoke) !important;
+    transition: 0.4s ease-out;
+}

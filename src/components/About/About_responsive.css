@@ -1,0 +1,31 @@
+@media (max-width: 500px) {
+    .hover-me {
+        position: static;
+    }
+
+    .flip-cards .flip-back p {
+        top: 40px;
+        font-size: 16px;
+        height: 90%;
+    }
+    .about img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .flip-cards .flip-back p {
+        font-size: 14px;
+        
+    }
+}
+
+@media (max-width: 321px) {
+    .flip-cards .flip-back p {
+        font-size: 12px;
+        
+    }
+    .about img {
+        width: 280px;
+    }
+}

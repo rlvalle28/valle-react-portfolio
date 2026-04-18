@@ -1,0 +1,43 @@
+* {
+    --smoke: #f8f9fa;
+    --navy-blue: #00308F;
+    --black: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--smoke);
+}
+
+.main-container {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-row {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-column {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
