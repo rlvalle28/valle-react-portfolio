@@ -28,21 +28,21 @@ export default function Hero() {
                     <h1>Hi! I'm Ralph Laurence Valle</h1>
                     <TypingText />
                     <div className='react-icons d-flex justify-content-center align-items-center gap-3 m-3'>
-                    <a href="https://www.facebook.com/rencevalle.28" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/rencevalle.28" target="_blank" rel="noopener">
                         <FaFacebook />
                     </a>
-                    <a href="https://github.com/rlvalle28" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/rlvalle28" target="_blank" rel="noopener">
                         <FaGithub />
                     </a>
-                    <a href="https://wa.me/+639761652460" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/+639761652460" target="_blank" rel="noopener">
                         <IoLogoWhatsapp />
                     </a>
                     
-                    <a href="skype:plug-shop?+639761652460" target="_blank" rel="noopener noreferrer">
+                    <a href="skype:plug-shop?+639761652460" target="_blank" rel="noopener">
                         <FaSkype />
                     </a>
 
-                    <a href="https://discord.com/tel:+639761652460" target="_blank" rel="noopener noreferrer">
+                    <a href="https://discord.com/tel:+639761652460" target="_blank" rel="noopener">
                         <FaDiscord />
                     </a>
                     </div>

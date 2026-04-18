@@ -8,7 +8,6 @@ import Project from './components/Projects/projects';
 import Skill from './components/Skills/Skills';
 import CF from './components/CForm/CForm';
 import Footer from './components/Footer/Footer';
-import { useState, useRef } from 'react';
 import Swal from 'sweetalert2';
 import ScrollToTop from './components/ScrollToTop/scrolltotop';
 

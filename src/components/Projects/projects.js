@@ -27,7 +27,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://cycleandstrength.com/' target='_blank'>
+                                <a href='https://cycleandstrength.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -40,7 +40,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://aventramanagement.com/' target='_blank'>
+                                <a href='https://aventramanagement.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -53,7 +53,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://www.intuitivedataanalytics.com/' target='_blank'>
+                                <a href='https://www.intuitivedataanalytics.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -66,7 +66,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://blossomecom.com/' target='_blank'>
+                                <a href='https://blossomecom.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -79,7 +79,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://proofeasy.io/' target='_blank'>
+                                <a href='https://proofeasy.io/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -92,7 +92,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://vitanatural.nl/' target='_blank'>
+                                <a href='https://vitanatural.nl/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -105,7 +105,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://www.altrailerrentals.com/' target='_blank'>
+                                <a href='https://www.altrailerrentals.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -118,7 +118,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://johnb562.sg-host.com/' target='_blank'>
+                                <a href='https://johnb562.sg-host.com/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
@@ -131,7 +131,7 @@ const projects = () => {
                             </div>
                             <div className='img-hover d-flex justify-content-center align-items-center'>
                                 <div className='img-logo'>
-                                <a href='https://marci-metzger.netlify.app/' target='_blank'>
+                                <a href='https://marci-metzger.netlify.app/' target='_blank' rel="noopener">
                                     <img src={urlsvg} alt="Descriptive text" className="responsive-img" />
                                 </a>
                                 </div>
