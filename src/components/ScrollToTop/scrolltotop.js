@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
-import "./scrolltotop.css";
+import React, { useState, useEffect } from 'react';
+import { FaArrowUp } from "react-icons/fa";
+import '../ScrollToTop/scrolltotop.css'
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,25 +16,23 @@ const ScrollToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-
+    window.addEventListener('scroll', toggleVisibility);
     return () => {
-      window.removeEventListener("scroll", toggleVisibility);
+      window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
 
   return (
-    <div id="scroll-btn">
+    <div id='scroll-btn'>
       {isVisible && (
-        <button
-          className="d-flex justify-content-center align-items-center"
+        <button className='d-flex justify-content-center align-items-center'
           onClick={scrollToTop}
-          aria-label="Scroll to top"
+          
         >
           &#8593;
         </button>
