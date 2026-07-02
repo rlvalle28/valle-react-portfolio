@@ -1,34 +1,19 @@
-import React, { useEffect } from 'react';
-import StickyHeader from './components/StickyHeader/StickyHeader';
-import './App.css';
-import './App_responsive.css';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import Project from './components/Projects/projects';
-import Skill from './components/Skills/Skills';
-import CF from './components/CForm/CForm';
-import Footer from './components/Footer/Footer';
-import { useState, useRef } from 'react';
-import Swal from 'sweetalert2';
-import ScrollToTop from './components/ScrollToTop/scrolltotop';
+import React, { useEffect } from "react";
+import "./App.css";
+import "./App_responsive.css";
 
+import StickyHeader from "./components/StickyHeader/StickyHeader";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Project from "./components/Projects/projects";
+import Skill from "./components/Skills/Skills";
+import CF from "./components/CForm/CForm";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/scrolltotop";
+
+import Swal from "sweetalert2";
 
 function App() {
-
-  // useState
-  // const [count, counter] = useState(0);
-
-  //   const add = () => {
-  //     counter(count + 1);      
-  // }
-  // const minus = () => {
-  //   counter(count - 1);
-  // }
-  // const resets = () => {
-  //   counter(0);
-  // }
-
-
   useEffect(() => {
     Swal.fire({
       title: "Hi!",
@@ -36,28 +21,35 @@ function App() {
       imageUrl: "../logo.png",
       imageWidth: 200,
       imageHeight: 200,
-      imageAlt: "Custom image"
+      imageAlt: "Portfolio Logo",
     });
   }, []);
 
-
   return (
     <>
-    <StickyHeader />
-    <Hero />
-    <div className='' style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '10px'}}>
-      <input type='hidden' autoFocus />
-      
-    </div>
-    <ScrollToTop />
-    <About />
-    <Project />
-    <Skill />
-    <CF />
-    <Footer />
-  </>
+      <StickyHeader />
+      <Hero />
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+          gap: "10px",
+        }}
+      >
+        <input type="hidden" autoFocus />
+      </div>
+
+      <ScrollToTop />
+      <About />
+      <Project />
+      <Skill />
+      <CF />
+      <Footer />
+    </>
   );
 }
 
 export default App;
-
