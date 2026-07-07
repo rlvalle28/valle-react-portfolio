@@ -9,7 +9,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 
 const handleViewResume = () => {
-    window.open('/ralphlaurencevalle.pdf', '_blank');
+    const filePath = '/ralphlaurencevalle.pdf';
+    window.open(filePath, '_blank');
 };
 
 export default function Hero() {
