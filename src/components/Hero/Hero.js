@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/ralphlaurencevalle.pdf';
 import '../Hero/Hero.css';
 import '../Hero/Hero_responsive.css';
 import '../Button/Button.css';
@@ -9,8 +10,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 
 const handleViewResume = () => {
-    const filePath = 'test/ralphlaurencevalle.pdf';
-    window.open(filePath, '_blank');
+    window.open(resume, '_blank');
 };
 
 export default function Hero() {
